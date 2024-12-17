@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background: #333;
+  padding: 1rem;
+  margin-top: 1rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+}
+
+.draggable {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #333;
+  /* margin: 1rem; */
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: 0.5;
+}
