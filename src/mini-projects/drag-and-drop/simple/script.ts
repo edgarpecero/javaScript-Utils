@@ -71,5 +71,4 @@ function getDragAfterElement(container: Element, y: number) {
       return closest;
     }
   }, { offset: Number.NEGATIVE_INFINITY, element: null }).element;
-
 } 
